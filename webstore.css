@@ -1,0 +1,93 @@
+.headerweb {
+  display: flex;
+  justify-content: center;
+  height: 44px;
+  width: 100vw;
+  gap: 24px;
+  align-items: center;
+}
+.headerweb2 {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  align-items: center;
+}
+.texts {
+  font-size: 14px;
+  font-weight: 500;
+}
+.herotext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  font-size: 30px;
+  color: black;
+}
+.splitimg {
+  width: 50vw;
+
+  z-index: -1;
+  flex-direction: row;
+  justify-content: space-around;
+  display: flex;
+}
+.backgrounds {
+  width: 100vw;
+  flex-direction: row;
+  border-radius: 18px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+  overflow-x: scroll;
+}
+.backgroundtext {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 24px;
+  font-size: 50px;
+  color: black;
+  line-height: 0px;
+}
+.endbutton {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  background-color: transparent;
+  border-radius: 80px;
+  color: black;
+  border: 1px solid black;
+}
+.backtext {
+  position: relative;
+  background: transparent;
+  font-size: 27px;
+  color: black;
+  height: 500px;
+  width: 550px;
+}
+.imgstyle {
+  position: absolute;
+  z-index: -1;
+}
+.endtext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  font-size: 30px;
+  color: black;
+}
+.border {
+  width: 260px;
+  height: 280px;
+  background-color: gray;
+  border-radius: 50px;
+
+  z-index: -1;
+
+  justify-content: space-around;
+  display: flex;
+}

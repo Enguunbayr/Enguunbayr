@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  height: 44px;
+  width: 100%;
+  gap: 24px;
+  align-items: center;
+}
+.header > :last-child > :last-child {
+  display: none;
+}
+.header2 {
+  display: flex;
+  justify-content: center;
+
+  gap: 24px;
+  align-items: center;
+}
+.herotext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  font-size: 50px;
+  color: white;
+}
+
+.container {
+  font-size: 14px;
+  font-weight: 500;
+}
+.herotext2 {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+}
+.herotext3 {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+  border-radius: 50px;
+}
+.herotext4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  font-size: 50px;
+  color: black;
+}
+
+.hero {
+  width: 100%;
+  aspect-ratio: 2.7;
+  position: relative;
+  height: 100%;
+}
+.herotext5 {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  align-items: center;
+  font-size: 20px;
+  color: black;
+}
+.herotext6 {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+  border-radius: 50px;
+}
+.hero-button {
+  background-color: blue;
+  border-radius: 80px;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+}
+.hero-button2 {
+  background-color: transparent;
+  border-radius: 80px;
+  color: blue;
+  border: 1px solid blue;
+  padding: 12px 20px;
+}
+.splithero1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  font-size: 20px;
+  color: black;
+  flex-direction: column;
+  height: 100%;
+}
+.splitimg {
+  width: 50vw;
+  position: absolute;
+  z-index: -1;
+  flex-direction: column;
+}
+.maindiv1 {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+}
+.imgstyle {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+}
+.maindiv2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.splitstyle {
+  width: 49%;
+  aspect-ratio: 1.6;
+}
+.maindiv3 {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+  overflow-x: scroll;
+  height: 100%;
+}
+.maindiv4 {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  overflow-x: scroll;
+  aspect-ratio: 100px;
+  height: 100%;
+}
+.scrollimg {
+  width: 49%;
+}
+.invicible {
+  width: 30px;
+  height: 44px;
+}
+
+@media only screen and (max-width: 760px) {
+  .header > p {
+    display: none;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header > :last-child {
+    display: flex;
+  }
+  .header > :last-child > :last-child {
+    display: block;
+  }
+  .herotext {
+    font-size: 20px;
+    align-items: flex-end;
+  }
+  .container {
+    font-size: 20px;
+  }
+  .herotext2 {
+    font-size: 20px;
+    align-items: flex-end;
+  }
+  .splitstyle {
+    width: 49%;
+    aspect-ratio: 1.6;
+  }
+  .splitimg {
+    width: 50vw;
+    position: absolute;
+    z-index: -1;
+    flex-direction: column;
+  }
+  .maindiv3 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .header > p {
+    display: none;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header > :last-child > :last-child {
+    display: flex;
+  }
+  .herotext {
+    font-size: 20px;
+    align-items: flex-end;
+  }
+  .container {
+    font-size: 20px;
+  }
+  .herotext2 {
+    font-size: 20px;
+    align-items: flex-end;
+  }
+  .splitstyle {
+    width: 100%;
+
+    height: 100%;
+  }
+  .splitimg {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    flex-direction: column;
+  }
+  .scrollimg {
+    width: 100%;
+  }
+}
